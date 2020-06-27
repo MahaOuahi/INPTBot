@@ -18,22 +18,22 @@ import M from 'materialize-css'
     <div className="header">
     <nav class="nav-wrapper transparent">
       <div class="container">
-        <a href="#" class="brand-logo">Photo Ninja</a>
-        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+        <a href="/" class="brand-logo">INPT</a>
+        <a href="/" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#photos">Photo's</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
-            <i class="fab fa-instagram"></i>
+          <li><a href="/" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Instagram"> 
+            <i class="fa fa-instagram"></i>
           </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
-            <i class="fab fa-facebook"></i>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Facebook">
+            <i class="fa fa-facebook"></i>
           </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Twitter">
-            <i class="fab fa-twitter"></i>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Twitter">
+            <i class="fa fa-twitter"></i>
           </a></li>
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
@@ -48,7 +48,7 @@ import M from 'materialize-css'
      <div class="container section scrollspy" id="photos">
           <div class="row">
               <div class="col s12 l4">
-                  <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed"/>
+                  <img src={pic1} alt="" class="responsive-img materialboxed"/>
               </div>
               <div class="col s12 l6 offset-l1">
                    <h2 class="indigo-text text-darken-4">Portraits</h2>
@@ -65,6 +65,24 @@ import M from 'materialize-css'
            </div>
     </div>
      <div class="row">
+             <div class="col s12 l4">
+                 <img src={pic1} alt="" class="responsive-img materialboxed"/>
+            </div>
+           <div class="col s12 l6 offset-l1">
+              <h2 class="indigo-text text-darken-4">Nature</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+           </div>
+    </div>
+    <div class="row">
+             <div class="col s12 l4 offset-l1 push-l7">
+                  <img src={pic1} alt="" class="responsive-img materialboxed"/>
+            </div>
+            <div class="col s12 l6 offset-l1 pull-l5 right-align">
+                  <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+           </div>
+    </div>
+    <div class="row">
              <div class="col s12 l4">
                  <img src={pic1} alt="" class="responsive-img materialboxed"/>
             </div>
