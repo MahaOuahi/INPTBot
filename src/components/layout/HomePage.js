@@ -1,6 +1,11 @@
 import React ,{ useEffect}from 'react'
 import './HomePage.css' 
 import pic1 from'./1.jpg' 
+import bib from './bib.jpg'
+import restau from './restau.jpg'
+import residence from './residence.jpg'
+import infirmerie from './infirmerie.jpg'
+import sport from './sport.jpg'
 
 import M from 'materialize-css'
 
@@ -48,47 +53,47 @@ import M from 'materialize-css'
      <div class="container section scrollspy" id="photos">
           <div class="row">
               <div class="col s12 l4">
-                  <img src={pic1} alt="" class="responsive-img materialboxed"/>
+                  <img src={residence} alt="" class="responsive-img materialboxed"/>
               </div>
               <div class="col s12 l6 offset-l1">
-                   <h2 class="indigo-text text-darken-4">Portraits</h2>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+              <a href="#"><h2 class="indigo-text text-darken-4">Résidence</h2></a>
+                   <p>Bénéficiez de l'infrastructure résidentielle de l'INPT qui se compose de 3 pavillons.</p>
              </div>
      </div>
      <div class="row">
              <div class="col s12 l4 offset-l1 push-l7">
-                  <img src={pic1} alt="" class="responsive-img materialboxed"/>
+                  <img src={infirmerie} alt="" class="responsive-img materialboxed"/>
             </div>
             <div class="col s12 l6 offset-l1 pull-l5 right-align">
-                  <h2 class="indigo-text text-darken-4">Cityscapes</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+            <a href="#"><h2 class="indigo-text text-darken-4">Infirmerie</h2></a>
+                 <p>Les étudiants bénéficient des soins médicaux et para-médicaux à titre gratuit au sein de l’infirmerie de l’école.</p>
            </div>
     </div>
      <div class="row">
              <div class="col s12 l4">
-                 <img src={pic1} alt="" class="responsive-img materialboxed"/>
+                 <img src={sport} alt="" class="responsive-img materialboxed"/>
             </div>
            <div class="col s12 l6 offset-l1">
-              <h2 class="indigo-text text-darken-4">Nature</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+           <a href="#"><h2 class="indigo-text text-darken-4">Infrastructure sportive</h2></a>
+             <p>Une salle de sport, des terrains et un bureau des sports qui gère avec le comité sport l’ensemble des activités sportives.</p>
            </div>
     </div>
     <div class="row">
              <div class="col s12 l4 offset-l1 push-l7">
-                  <img src={pic1} alt="" class="responsive-img materialboxed"/>
+                  <img src={restau} alt="" class="responsive-img materialboxed"/>
             </div>
             <div class="col s12 l6 offset-l1 pull-l5 right-align">
-                  <h2 class="indigo-text text-darken-4">Cityscapes</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+                  <a href="#"><h2 class="indigo-text text-darken-4">Restaurant et Cafétéria</h2></a>
+                 <p>un restaurant servant jusqu'à 1200 repas par jour et une cafétéria.</p>
            </div>
     </div>
     <div class="row">
              <div class="col s12 l4">
-                 <img src={pic1} alt="" class="responsive-img materialboxed"/>
+                 <img src={bib} alt="" class="responsive-img materialboxed"/>
             </div>
            <div class="col s12 l6 offset-l1">
-              <h2 class="indigo-text text-darken-4">Nature</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+           <a href="#"><h2 class="indigo-text text-darken-4">Bibliothèque</h2></a>
+             <p>un lieu d'information, d'accueil, d'échange et de communication qui fait environ 800 m² de superficie.</p>
            </div>
     </div>
   </div>
