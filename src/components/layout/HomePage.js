@@ -110,29 +110,24 @@ import M from 'materialize-css'
   <div class="section container scrollspy" id="services">
     <div class="row">
       <div class="col s12 l4">
-        <h2 class="indigo-text text-darken-4">What I do..</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+        <Link to="/faq"><h2 class="indigo-text text-darken-4">FAQ</h2></Link>
+        <p>Notre foire aux questions met à votre disposition vos questions les plus fréquentes accompagnées des réponses correspondantes.</p>
+        <p>Trouvez les réponses à vos questions concernant la résidence, la restauration, l'infirmerie la bibliothèque et les activités sportives.</p>
       </div>
       <div class="col s12 l6 offset-l2">
         
-        <ul class="tabs">
-          <li class="tab col s6">
-            <a href="#photography" class="active indigo-text text-darken-4">Photography</a>
-          </li>
-          <li class="tab col s6">
-            <a href="#editing" class="indigo-text text-darken-4">Editing</a>
-          </li>
-        </ul>
         <div id="photography" class="col s12">
-            <p class="flow-text indigo-text text-darken-4">Photography</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
-        </div>
-        <div id="editing" class="col s12">
-            <p class="flow-text indigo-text text-darken-4">Editing</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+            <p class="flow-text indigo-text text-darken-4">Vos questions</p>
+            <p>Quels sont les frais d'inscription à l'internat? </p>
+            <p>Est-ce que le WiFi est offert?</p>
+            <p>Quels sont les activités sportives disponibles à l’INPT?</p>
+            <p>Quels sont les horaires de la salle de sport?</p>
+            <p>Quels sont les jours de travail du médecin?</p>
+            <Link to="/faq">
+              <button class="btn waves-effect waves-light" type="submit" name="action">Voir la communauté d'aide
+                <i class="material-icons right">send</i>
+              </button>
+            </Link>
         </div>
         </div>
       </div>
