@@ -141,46 +141,27 @@ import M from 'materialize-css'
   <div class="section container scrollspy" id="contact">
     <div class="row">
       <div class="col s12 l5">
-        <h2 class="indigo-text text-darken-4">Get in Touch</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+        <h2 class="indigo-text text-darken-4">Réclamations</h2>
+        <p>Votre moyen le plus simple pour envoyer une réclamation.</p>
+        <p>Si vous avez un problème dans votre chambre qui nécessite la réparation, vous avez besoin d'un article ou de l'aide, cet espace est pour vous.</p>
+        <p>Entrez votre adresse mail valide pour que nous puissions vous répondre et vous aider. Ensuite, rédigez votre réclamation.</p>
+        <p>Nous sommes là pour vous. Restons en contact!</p>
       </div>
       <div class="col s12 l5 offset-l2">
         <form>
           <div class="input-field">
             <i class="material-icons prefix">email</i>
             <input type="email" id="email"/>
-            <label for="email">Your Email</label>
+            <label for="email">Votre Email</label>
           </div>
           <div class="input-field">
             <i class="material-icons prefix">message</i>
             <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
-            <label for="message">Your Message</label>
+            <label for="message">Votre Message</label>
           </div>
-          <div class="input-field">
-            <i class="material-icons prefix">date_range</i>
-            <input type="text" id="date" class="datepicker"/>
-            <label for="date">Choose a date you need me for...</label>
-          </div>
-          <div class="input-field">
-            <p>Services required:</p>
-            <p>
-              <label>
-                <input type="checkbox"/>
-                <span>Photography</span>
-              </label>
-            </p>
-            <p>
-              <label>
-                <input type="checkbox"/>
-                <span>Photo Editing</span>
-              </label>
-            </p>
-          </div>
+          
           <div class="input-field center">
-            <button class="btn">Submit</button>
+            <button class="btn">Envoyer</button>
           </div>
         </form>
       </div>
@@ -192,9 +173,9 @@ import M from 'materialize-css'
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5>About Me</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+          <h5>A propos de nous</h5>
+          <p>Nous sommes des étudiants en deuxième année de la filière Système Ubiquitaires et Distribués - Cloud et IoT à l'Institut National des Postes et Télécommunications.</p>
+          <p>Dans le cadre de notre projet professionnel et personnel de fin d'année, nous avons développé cette application web avec un ChatBot intégré pour répondre aux questions des étudiants de l'institut.</p>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Connect</h5>
@@ -208,7 +189,7 @@ import M from 'materialize-css'
       </div>
     </div>
     <div class="footer-copyright grey darken-4">
-      <div class="container center-align">&copy; 2018 Photo Ninja</div>
+      <div class="container center-align">&copy; 2020 SUD</div>
     </div>
   </footer>
 
