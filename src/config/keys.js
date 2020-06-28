@@ -14,6 +14,7 @@ import 'firebase/auth';
   };
   // Initialize Firebase
   firebase.initializeApp(config);
-  firebase.analytics();
+  firebase.firestore().settings({ timestampsInSnapshots: true });
+ 
 
-  export default firebase 
+  export default firebase;
