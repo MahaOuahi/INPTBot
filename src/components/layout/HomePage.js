@@ -178,12 +178,13 @@ import M from 'materialize-css'
           <p>Dans le cadre de notre projet professionnel et personnel de fin d'année, nous avons développé cette application web avec un ChatBot intégré pour répondre aux questions des étudiants de l'institut.</p>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Equipe</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+            <li>Salma BIDEQ</li>
+            <li>Wahiba ZAHNOUN</li>
+            <li>Maha OUAHI</li>
+            <li>Hamza BENNIS</li>
+            <li>Taha CHAKIR</li>
           </ul>
         </div>
       </div>
