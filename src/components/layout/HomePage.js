@@ -1,51 +1,66 @@
-import React ,{ useEffect}from 'react'
+import React ,{Component} from 'react'
 import './HomePage.css' 
 import pic1 from'./1.jpg' 
 
 import M from 'materialize-css'
 
 
- const HomePage =() =>{
 
-  useEffect(()=>{
+ export default class HomePage extends Component{
+
+  componentDidMount() {
     let elements =document.querySelectorAll(".parallax");
     M.Parallax.init(elements);
     
-  }, []);
- 
+  }
+
+ render(){
   return (
 <div>
     <div className="header">
-    <nav class="nav-wrapper transparent">
+    <nav class="nav-wrapper transparent fixed">
       <div class="container">
-        <a href="/" class="brand-logo">INPT</a>
+        <a href="/" class="brand-logo ">INPT</a>
         <a href="/" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#photos">Photo's</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="/" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Instagram"> 
-            <i class="fa fa-instagram"></i>
+          <li><a href="#photos" class="blue-text text-darken-2">FAQ</a></li>
+          <li><a href="#services" class="blue-text text-darken-2">Services</a></li>
+          <li><a href="#contact" class="blue-text text-darken-2">Contact</a></li>
+          
+          <li><a href="https://www.instagram.com/inptrabat/?hl=fr" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Instagram"> 
+            <i class="fab fa-instagram"></i>
           </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Facebook">
-            <i class="fa fa-facebook"></i>
+          <li><a href="https://www.facebook.com/www.inpt.ac.ma/" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Facebook">
+            <i class="fab fa-facebook"></i>
           </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Twitter">
-            <i class="fa fa-twitter"></i>
+          <li><a href="https://twitter.com/INPTRabat" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/inpt-rabat-370378a6/" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Linkedin">
+            <i class="fab fa-linkedin"></i>
+          </a></li>
+          <li><a href="http://inpt.ac.ma/fr" class="tooltipped btn-floating btn-small indigo " data-position="bottom" data-tooltip="Linkedin">
+            <i class="fa fa-globe"></i>
           </a></li>
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
-          <li><a href="#">Photo's</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Services</a></li>s
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
+    
+    <div>
+    <h5 class="center-align">This should be left aligned</h5>
+  </div>
+                    
+              
    </div>
 
-     <div class="container section scrollspy" id="photos">
+     <div class="container section scrollspy" id="services">
           <div class="row">
               <div class="col s12 l4">
                   <img src={pic1} alt="" class="responsive-img materialboxed"/>
@@ -82,6 +97,7 @@ import M from 'materialize-css'
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
            </div>
     </div>
+    
     <div class="row">
              <div class="col s12 l4">
                  <img src={pic1} alt="" class="responsive-img materialboxed"/>
@@ -101,7 +117,7 @@ import M from 'materialize-css'
   </div>
 
 
-  <div class="section container scrollspy" id="services">
+  <div class="section container scrollspy" id="photos">
     <div class="row">
       <div class="col s12 l4">
         <h2 class="indigo-text text-darken-4">What I do..</h2>
@@ -215,6 +231,5 @@ import M from 'materialize-css'
   </div>
 
 
-  )}
+  )}}
 
-export default HomePage
