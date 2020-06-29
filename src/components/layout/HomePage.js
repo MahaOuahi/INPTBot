@@ -24,17 +24,21 @@ import M from 'materialize-css'
   componentDidMount() {
     let elements =document.querySelectorAll(".parallax");
     M.Parallax.init(elements);
-}
-handleChange = (e) => {
-  this.setState({
-    [e.target.id]: e.target.value
-  })
-}
-handleSubmit = (e) => {
-  e.preventDefault();
-    //console.log(this.state);
-    this.props.addReclamation(this.state)
-}
+  }
+  handleChange = (e) => {
+    this.setState({
+      [e.target.id]: e.target.value
+    })
+  }
+  handleSubmit = (e) => {
+    e.preventDefault();
+      //console.log(this.state);
+      this.props.addReclamation(this.state)
+  }
+  onButtonClickHandler = () => {
+    window.alert('Votre réclamation a bien été ajoutée. Merci');
+  }
+
 render () {
   console.log(this.props);
   return (
@@ -180,7 +184,7 @@ render () {
             </div>
             
             <div class="input-field center">
-              <button class="btn">Envoyer</button>
+              <button class="btn" onClick={this.onButtonClickHandler}>Envoyer</button>
             </div>
           </form>
         </div>
