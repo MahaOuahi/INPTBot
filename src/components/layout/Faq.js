@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import M from 'materialize-css'
-import firebase from './keys';
+import firebase from '../../config/keys';
 
 const Faq = () => {
   
